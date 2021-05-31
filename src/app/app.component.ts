@@ -64,7 +64,6 @@ export class AppComponent {
 
   loginWithGoogle(): void {
     this.socialAuthService.signIn(GoogleLoginProvider.PROVIDER_ID);
-    alert('logged in');
   }
 
   logOut2(): void {
